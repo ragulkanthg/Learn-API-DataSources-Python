@@ -2,7 +2,7 @@
 
 ## Description
 
-Python implementation to do CRUD operations on data sources
+Python implementation to perform CRUD operations on data sources
 
 ## Requirements
 
@@ -12,21 +12,21 @@ Python implementation to do CRUD operations on data sources
 
 ### Intial Setup / Installation
 
-Please install all the above requierements based on your distro.
+Please install all the above requierements based on your distribution/OS.
 
 ### Python Virtual Environment
 
-If you configured the direnv correctly, once you get into the cloned repository you can able see a warning to perform ```direnv allow```, please ignore it and go ahead with the python virtualenv setup.
+If you have configured the direnv correctly, upon entering the cloned repository, you will see a warning to perform ```direnv allow```. please ignore this warning initially and proceed with the Python virtualenv setup.
 
-To create an virtual environment.
+To create an virtual environment, run:
 
 ```sh
 virtualenv .env --python=python3
 ```
 
-**Note:** Do not change the name of the virtual environment because it is configured by default with the name ```.env``` in direnv's ```.envrc``` file.
+**Note:** Do not change the name of the virtual environment, as it is configured by default with the name ```.env``` in direnv's ```.envrc``` file.
 
-Now perform ```direnv allow```, This will activate the virtual environment and will continue to do it whenever you enters this repository.
+Now run ```direnv allow```, This will activate the virtual environment and continue to do so whenever you enter this repository.
 
 #### Installing dependencies with pip
 
